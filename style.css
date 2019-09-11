@@ -12,6 +12,7 @@
 
 /* Imports the font that is used on this page. */
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+@import url(https://fonts.google.com/specimen/Racing+Sans+One:300,400,700);
 
 
 /* This section sets the defaults for the page, but you may never see changes here if they are overwritten by the div elements below.  */
@@ -23,7 +24,7 @@ html, body {
 body{
 	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
 	text-align: left; /* Alignment of the text */
-	color: black; /* Main text color */
+	color: red; /* Main text color */
 	background: white; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
 }
@@ -34,9 +35,9 @@ a {                  /* A stands for link, so this section is setting the defaul
 }
 
 h1 {		     /* This styles the header at the top of the page */
-	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
+	font: bold 2.1em 'Source Sans Pro',Arial, sans-serif;
 	text-align: left;
-	color: white;
+	color: red;
 }
 
 h2 {		     /* This styles the headers within the page */
